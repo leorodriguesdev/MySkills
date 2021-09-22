@@ -64,8 +64,8 @@ MySkills é um projeto criado para o desenvolvedor com o cadastro de novas skill
 ## Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) e [Android Studio](https://developer.android.com/studio/install?hl=pt-br). 
-Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+[Git](https://git-scm.com) e [Node.js](https://nodejs.org/en/). 
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/). Por fim,para emular o App no seu celular você vai precisar fazer o download do Expo app para [IOS](https://apps.apple.com/app/apple-store/id982107779) e [Android](https://play.google.com/store/apps/details?id=host.exp.exponent&referrer=www).
 
 ## 🎲 Rodando a aplicação
 
@@ -79,14 +79,17 @@ $ cd mySkills
 # Instale as dependências
 $ yarn install
 
-# Execute a aplicação em modo de desenvolvimento via cabo usb no seu celular
-$ yarn react-native start
+# Execute a aplicação em modo de desenvolvimento via aplicativo Expo no seu celular escaneando o QR code que aparecerá no seu navegador 
+$ expo start
 
 # Execute a aplicação em modo de desenvolvimento no emulador android ( Dica: Deixar o emulador aberto antes deste comando )
-$ yarn android
+$ expo android
 
 # Execute a aplicação em modo de desenvolvimento no emulador ios
-$ yarn ios
+$ expo ios
+
+# Execute a aplicação em modo de desenvolvimento no navegador web
+$ expo web
 
 # A aplicação inciará de form automática após o comando em qualquer uma das três opções.
 ```
@@ -100,6 +103,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [JSX](https://pt-br.reactjs.org/docs/jsx-in-depth.html)
 - [Hooks com useState e useEffect](https://pt-br.reactjs.org/docs/hooks-effect.html)                       
 - [FlatList](https://reactnative.dev/docs/flatlist)
+- [Expo](https://docs.expo.dev/)
 
 ## Autor
 

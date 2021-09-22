@@ -64,8 +64,7 @@ MySkills is a project created for the developer with the registration of new ski
 ## Prerequisites
 
 Before starting, you will need to have the following tools installed on your machine:
-[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) e [Android Studio](https://developer.android.com/studio/install?hl=pt-br).
-Besides, it's nice to have an editor to work with code like [VSCode](https://code.visualstudio.com/)
+[Git](https://git-scm.com) ans [Node.js](https://nodejs.org/en/). Finally, to emulate the App on your mobile you will need to download the Expo app for [IOS](https://apps.apple.com/app/apple-store/id982107779) e [Android](https://play.google.com/store/apps/details?id=host.exp.exponent&referrer=www).
 
 ## 🎲 Running the application
 
@@ -79,14 +78,17 @@ $ cd mySkills
 # Install dependencies
 $ yarn install
 
-# Run the application in development mode via usb cable on your mobile
-$ yarn react-native start
+# Run the application in development mode via the Expo app on your mobile by scanning the QR code that will appear on your browser
+$ expo start
 
 # Run the application in development mode on the android emulator ( Tip: Leave the emulator open before this command )
-$ yarn android
+$ expo android
 
 # Run the application in development mode on the ios emulator
-$ yarn ios
+$ expo ios
+
+# Run the application in development mode in the web browser
+$ expo web
 
 # The application will start automatically after the command in any of the three options.
 ```
@@ -100,6 +102,8 @@ The following tools were used in the construction of the project:
 - [JSX](https://pt-br.reactjs.org/docs/jsx-in-depth.html)
 - [Hooks com useState e useEffect](https://pt-br.reactjs.org/docs/hooks-effect.html)                       
 - [FlatList](https://reactnative.dev/docs/flatlist)
+- [Expo](https://docs.expo.dev/)
+
 
 ## Author
 
